@@ -11,11 +11,6 @@ import Performance from "./Component/Admin/Pages/Performance";
 import Reports from "./Component/Admin/Pages/Report";
 import Settings from "./Component/Admin/Pages/Settings";
 
-
-
-
-
-
 function App(){
   return(
       <>
@@ -23,7 +18,7 @@ function App(){
 <BrowserRouter>
   <Routes>
 
-      <Route path="/login" element={<Login/>}/>
+      <Route path="/" element={<Login/>}/>
       <Route path="/Signup" element={<Signup/>}/>
       <Route path="/Panel" element={<Panel/>}>
           <Route index  element={<Dashboard />}/>
