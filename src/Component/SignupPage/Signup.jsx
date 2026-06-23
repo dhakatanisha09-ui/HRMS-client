@@ -87,7 +87,7 @@ function Signup() {
                             <div>
                                 <label className="">Already have an account?</label>
                             </div>
-                            <Link to="/login"className="text-blue-500 hover:text-blue-700 underline">Login</Link>
+                            <Link to="/"className="text-blue-500 hover:text-blue-700 underline">Login</Link>
 
                         </div>
                     </div>
