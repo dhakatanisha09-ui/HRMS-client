@@ -56,7 +56,7 @@ function Login() {
     }
 
 let handleClick = () => {
-    handleValidate(loginData);
+    handleValidate(loginData)
 };
 
 console.log(error.email);
